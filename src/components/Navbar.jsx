@@ -30,6 +30,12 @@ function Navbar() {
               <Link className=" text-[#294E6A]" to={"/contact"}>
                 Contact
               </Link>
+              <Link className=" text-[#294E6A]" to={"/register"}>
+                Register
+              </Link>{" "}
+              <Link className=" text-[#294E6A]" to={"/login"}>
+                Login
+              </Link>
             </li>
           </ul>
         </div>

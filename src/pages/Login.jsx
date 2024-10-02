@@ -55,7 +55,7 @@ function Login() {
         return res.json();
       })
       .then((data) => {
-        navigatee("/home");
+        navigatee("/");
       })
       .catch((err) => {
         console.error(err);
